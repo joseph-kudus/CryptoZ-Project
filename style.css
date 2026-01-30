@@ -5,6 +5,8 @@
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    height: 48;
+    width: 1199px;
     border: 1px;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -26,7 +28,8 @@
     font-weight: 61px;
     line-height: 150%;
     padding-top: 16px;
-    padding-left: 50.5px;
+    padding-bottom: 16px;
+    left: 12000.5px;
 }
 .navbar {
     display: flex;
@@ -37,12 +40,14 @@
     white-space: nowrap;
 }
 .nav-bar{
-    
-   
+   align-items: center; 
+   left: 571.5px;
+   text-align: center;
 }
-.nav-bar, ul li a{
+.nav-bar, a{
     top: 28px;
-    left: 571.5px;
+    filter: blur(120);
+     backdrop-filter: blur(120px);
     gap: 28px;
     width: hug(295px);
     height:  hug(24px);
@@ -63,7 +68,7 @@
     align-items: center;
     top: 16px;
     left: 1101.5px;
-    gap: 10px;  
+    gap: 28px;  
 }
 .get-started{
     background-color: #2752E7;
