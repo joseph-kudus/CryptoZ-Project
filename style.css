@@ -9,10 +9,8 @@
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-
     height: 48;
     width: 1199px;
-
     border: 1px;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -141,4 +139,10 @@
     text-align: right;
     display:flexbox;
     transform: none;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
 }
