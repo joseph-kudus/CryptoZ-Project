@@ -1,40 +1,29 @@
 .header{
     background-color: #FFFFFF;
-    padding: 0 40px;
-    height: 60px;
+    width: fixed(1440px);
+    height: hug(80px);
+    border: 1px #0000001A 10%;
     display: flex;
     color: black;
     align-items: center; 
-    gap: 16px;
-    top: 26px;
-    position: fixed;
-    backdrop-filter: blur(120px);
-    top: 0; 
-    width: 100%;
-    z-index: 100; 
+    gap: 10px;
+    position: relative(fixed);
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
-
-.logo{
-    font: Nohemi;
-    font-style: semi bold;
-    font-size: 23.13px;
+.navbar {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    top: 26px;
-    left: -0.5px;
-    width: 24px;
-    height: 24px;
-    gap: 10px;
-    line-height: 130%;
-    letter-spacing: 0px;
+    justify-content: space-between;
+    gap: 28px;
+    padding: 28px auto;
+    white-space: nowrap;
+
+    
 }
-span{
-    font-weight: 600;
-    font: nohemi;
-    line-height: 130%;
-    letter-spacing: 0px;
-    font-style: semi bold;
+.nav-bar{
+    text-align: ;
+   
 }
 .nav{
     width: 100%;
@@ -54,8 +43,18 @@ span{
     justify-content: space-around;
     text-decoration: none; 
 }
-.btn-button{
+
+.logo{
     color: #2C3131;
+    font-family: Inter;
+    font-style: regular;
+    font-size: 16px;
+    font-weight: 61px;
+    line-height: 150%;
+    top: 16px;
+    padding-left: 50.5px;
+}
+.btn-button{
     display: flex;
     align-items: center;
     padding-top: 16px;
