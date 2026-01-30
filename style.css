@@ -61,3 +61,63 @@ li a{
     gap: 28px;
     justify-content: space-around;
 }
+
+/*hero section*/
+.hero-container{
+    background-color: #2752E7;
+    height: 759px;
+    
+    
+}
+.content{
+    width: 618px;
+    height: 150px;
+    padding: 150px;
+    padding-left: 120px;
+}
+.content-para{
+    color: #FFFFFF;
+    line-height: 125%;
+    font-size: 40px;
+    font-style: bold;
+    font-family: Yukita Sans;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+
+ .pp{
+    height: 56px;
+    left: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 40;
+    font: Inter;
+    width: 618px;
+    height: 100px;
+    padding: 10px;
+    padding-left: 20px;
+    top: 340px;
+    gap: 20px;
+}
+.cta-but{
+    background-color: #2752E7;
+    height: 24px;
+}
+
+.Currency-converter{
+    display: flex;
+    font-family: Yukita Sans;
+    width: 419px;
+    height: 419px;
+    top: 90px;
+    left: 829px;
+    color: #FFFFFF;
+    background-color: red;
+    border-radius: 20px;
+    opacity: 80%;
+
+
+    text-align: right;
+    display:flexbox;
+    transform: none;
+}
