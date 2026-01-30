@@ -146,7 +146,7 @@ span{
     background-color: #2752E7;
     color: #FFFFFF;
     border-radius: 19.36px;
-    left: 103px;
+    
     top: 5315px;
 
     line-break: 40;
@@ -157,5 +157,16 @@ span{
     flex-direction: row;
     align-content: center;
     flex-wrap: wrap;
+    top: 77.43px;
+    left: 64.22px;
+    gap: 116.14px;
+    height: 382.87px;
+    
 }
 
+.sub-content ul{
+    gap: 25.92px;
+    flex-direction: column;
+    list-style: none;    
+    text-align: left;
+}
