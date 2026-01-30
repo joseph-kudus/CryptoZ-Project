@@ -21,21 +21,15 @@
 }
 .navbar{
     width: 100%;
-    display: flex;
-    color: bisque;
-    align-items: center;
-    justify-content: space-around;
-
+    z-index: 100;
+    
 }
-.nav-bar{
-    margin: auto;
-    display: flex;
-    list-style: none;
-    align-items: center;
+
+
+.nav{
     gap: 28px;
-    justify-content: space-around;
+    top: 28px;
 }
-
 .logo{
     color: #2C3131;
     font-family: Inter;
@@ -46,13 +40,30 @@
     top: 16px;
     padding-left: 50.5px;
 }
-.btn-button{
+.navbar {
     display: flex;
-    
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 28px;
+    padding: 28px auto;
+    white-space: nowrap;
 }
-li a{
+.nav-bar{
+   align-items: center; 
+   left: 571.5px;
+   text-align: center;
+}
+.nav-bar, a{
+    top: 28px;
+    filter: blur(120);
+     backdrop-filter: blur(120px);
+    gap: 28px;
+    width: hug(295px);
+    height:  hug(24px);
     color: #2C3131;
-    list-style-type: none;
+    list-style: none;
+    display: flex;
+    list-style: none;
     text-decoration: none;
     align-content: center;
     
