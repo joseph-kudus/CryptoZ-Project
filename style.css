@@ -141,3 +141,21 @@ span{
     display:flexbox;
     transform: none;
 }
+
+.footer{
+    background-color: #2752E7;
+    color: #FFFFFF;
+    border-radius: 19.36px;
+    left: 103px;
+    top: 5315px;
+
+    line-break: 40;
+    
+}
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
