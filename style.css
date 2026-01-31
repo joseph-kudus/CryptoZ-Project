@@ -1,3 +1,11 @@
+:root{
+    --primary-color: #FFFFFF;
+    --secondary-color: ;
+    --acent-color: #2752E7;
+    --background-color: #2752E7;
+    --text-color: #2C3131;
+}
+
 .header{
     background-color: #FFFFFF;
     padding: 0 40px;
@@ -125,23 +133,44 @@ span{
 }
 
 .Currency-converter{
-    display: flex;
+    position: absolute;
+    top: 94px;
+    right: 0;
+    border: 3px ;
+    margin: 30px;
+    padding: 0.1rem;
     font-family: Yukita Sans;
     width: 419px;
     height: 419px;
-    top: 90px;
-    left: 829px;
-    color: #FFFFFF;
-    background-color: red;
+    color: #FFFFFF 1px;
+    background-color: rgb(83, 114, 160);
     border-radius: 20px;
     opacity: 80%;
-
-
-    text-align: right;
-    display:flexbox;
-    transform: none;
 }
 
+.currency-content, .text-card{
+    color: #FFFFFF;
+    display: block;
+    flex-direction: column;
+
+}
+.currency-content{
+    line-height: 14px;
+    letter-spacing: 0;
+    font-size: 24px;
+    font-style: Yukita Sans;
+    font-weight: 600;
+}
+
+.currency-content h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.text-card{
+    display: flexbox;
+}
 .footer{
     background-color: #2752E7;
     color: #FFFFFF;
