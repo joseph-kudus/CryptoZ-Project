@@ -262,6 +262,37 @@ span{
 }
 
 
+.minute-section{
+    display: flex;
+    background-color: #D0DBFF;
+    text-align: center;
+}
+
+.card-m{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    top: 1229px;
+    left: 119px;
+    border: 1px;
+    border-radius: 20px;
+    height: 414px;
+    width: 1,197px;
+    gap:  20px;
+    text-align: center;
+}
+.mute-card{
+    font-family: inter;
+    font-weight: 400;
+    font-style: regular;
+    line-height: 150%;
+    flex-direction: row;
+    letter-spacing: 0px;
+    color: #626262;
+}
+
+
+
 /* footer*/
 .footer{
     background-color: #2752E7;
