@@ -171,6 +171,98 @@ span{
 .text-card{
     display: flexbox;
 }
+
+.article1{
+    background-color: #FFFFFF;
+    top: 839px;
+    height: 438px;
+    width: 1440px;
+    
+}
+.Brand-Company{
+    background-color: #FFFFFF;
+    flex-direction: column;
+    height: 82px;
+    width: 1,440px;
+    left: 6px;
+    padding-top: 24px;
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-bottom: 24px;
+
+}
+
+.brand-l{
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+    list-style: none;
+    align-items: center;
+    height: 33.16px;
+    gap: 20px;
+    
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    gap: 100px;
+    border: 1px;
+}
+
+/* Needed for positioning the line */
+.stat-column {
+    text-align: center;
+    padding: 0 20px;
+    position: relative; 
+}
+
+/* This creates the vertical divider line */
+.stat-column:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    border: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px; /* Thickness of the line */
+    height: 60%; /* Length of the line relative to the column */
+    background-color: #CACACA; /* Color of the line */
+}
+
+.number {
+    font-family: Yukita Sans;
+    font-size: 48px;
+    font-style: light;
+    font-weight: 300;
+    color: #050E2C; 
+    margin-bottom: 5px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    width: 107px;
+    height: 60px;
+}
+
+.description {
+    font-family: inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    letter-spacing: 0px;
+    font-size: 14px;
+    color: #626262; 
+
+}
+
+
+/* footer*/
 .footer{
     background-color: #2752E7;
     color: #FFFFFF;
