@@ -306,19 +306,20 @@ span{
 
 
 /*boxes*/
-.boxes{
-    background-color: #2C3131;
-    color: white;
-    padding: auto;
-    align-items: stretch;
+div.box-container{
+    background-color: #2752E7;
+    display: flex;
     justify-content: space-between;
-    gap: 20px;
-
-    display: grid;
-    grid-template-columns: auto auto auto;
+    padding: 20px;
 }
 
-
+div.box-card{
+    padding: 20px;
+    background-color: #050E2C;
+    color: white;
+    border-radius: 10px;
+    gap: 80px;
+}
 
 
 
