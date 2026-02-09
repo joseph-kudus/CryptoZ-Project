@@ -10,6 +10,12 @@
     margin: 0;
     max-width: 100%;
 }
+@media screen and (max-width: 800px) {
+    .header{
+        width: 100%;
+    }
+    
+}
 body{
     max-width: 100%;
 
@@ -420,25 +426,53 @@ div.frame-text h1{
     display: flex;
     align-content: center;
     align-self: center;
-    gap: 48px;   
+    gap: 48px; 
+    justify-content: center;
+    padding: 100px;
 }
 .footer-container-boxes{
     align-items: center;
     list-style: none;
     list-style-type: none;
 }
+.arra{
+    list-style: none;
+    gap: 20px;
+    line-height: 32px;
+}
 
-
-
-div.crypto{
+/*horizontal line*/
+hr{
+    margin: 1.5rem 3%;
+    
+}
+div.crypto h1{
+    color: #FFFFFF;
     align-items: center;
     text-align: center;
     padding: 30px auto;
+    letter-spacing: 0px;
+    line-height: 130%;
+    font-family: yukita sans;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 23px;
+    letter-spacing: 0px;
 }
 div.bott{
+    display: flex;
     align-items: center;
     text-align: center;
     padding: 20px;
     margin: auto;
     top: 48px;
+    color: #FFFFFF;
+    width: 33.01px;
+    height: 33px;
+}
+.logo-footer{
+    display: flex;
+    font-family: Nohomi;
+    font-style: semi bold;
+    font-size: 31px;
 }
