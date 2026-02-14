@@ -34,47 +34,51 @@
                     <input class="mail-us-l" type="text" placeholder="Email Address....">
                     <button class="mai">Get started</button>
                 </div>
-            </div>            
-        <div class="Currency-converter">
-            <div class="currency-content" id="control">
+            </div>   
+
+            <!--CURRENCY CONVERTER-->
+            <div class="converter-card Currency-converter">
                 <h1>Currency Converter</h1>
-                <div class="text-card">
-                    <p>Amount</p>
-                        <button id="base">
-                            <select name="" id="">
-                                <option value="">USD</option>
-                                <option value="">AUD</option>
-                                <option value="">EUR</option>
-                                <option value="">BTC</option>
-                                <option value="">ZAR</option>
-                                <option value="">MYR</option>
-                            </select>
-                        </button>
-                        <input type="number" id="input-base" value="0" min="0" step="0.01">
-                        
-                    <p>Convert to</p>
-                    <button id="base">
-                            <select name="" id="">
-                                <option value="">BTC</option>
-                                <option value="">AUD</option>
-                                <option value="">EUR</option>
-                                <option value="">USD</option>
-                                <option value="">ZAR</option>
-                                <option value="">MYR</option>
-                            </select>
-                        </button>
-                    <input type="number" id="input-base" value="0" min="0" step="0.01" readonly>
-                    <div class="swap-btn" id="swap-btn"><span class="material-symbols-outlined">sync_alt</span></div>
-                    <p>Date</p>
-                        <input type="date" id="calender" name="calender">
-                    </select>
-                    <div class="exchange-rate">
-                        <h4>EUR GBP BTC</h4>
-                        <span id="exchange-rate">1 USD = 1.234 EUR</span>
+
+            <div class="input-group">
+                <label>Amount</label>
+                <div class="input-row">
+                    <div class="currency-select">
+                        <img src="assets/Frame 8764.png" alt="GBP">
+                        <span>GBP</span>
+                        <i class="arrow-down"></i>
                     </div>
+                    <input type="number" value="0.0088" step="0.0001">
                 </div>
             </div>
-        </div>   
+
+            <div class="input-group">
+            <label>Converted to</label>
+            <div class="input-row">
+                <div class="currency-select">
+                    <img src="assets/Flags.png" alt="AUD">
+                    <span>AUD</span>
+                    <i class="arrow-down"></i>
+                </div>
+                <input type="number" value="0.0088" step="0.0001">
+            </div>
+            </div>
+
+            <div class="input-group">
+                <label>Date</label>
+                <div class="date-row">
+                    <button class="nav-btn">&lt;</button>
+                    <span class="date-text">01 may 2024</span>
+                    <button class="nav-btn">&gt;</button>
+                    <div class="calendar-icon">📅</div>
+                </div>
+            </div>
+
+        <div class="footer-links">
+            EUR GBP BTC
+        </div>
+    </div>
+               
         </div>
     </div>
     </div>
@@ -243,6 +247,6 @@
             <p>© Design by Amarachi Iwueze. All rights reserved.</p>
         </div>
     </div>
-
+<script src="exchangerate.js"></script>
  </body>
 </html>

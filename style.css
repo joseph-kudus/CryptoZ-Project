@@ -165,8 +165,16 @@ span{
     gap: 20px;
 }
 
+/*currency converter*/
 
-.Currency-converter{
+/*testing*/
+
+.converter-card {
+    width: 350px;
+    padding: 20px;
+    font-family: Yukita Sans;
+    width: 419px;
+    height: 419px;
     position: absolute;
     top: 94px;
     right: 0;
@@ -174,37 +182,99 @@ span{
     margin: 30px;
     padding: 0.1rem;
     font-family: Yukita Sans;
-    width: 419px;
-    height: 419px;
+    color: #FFFFFF 1px;
     color: #FFFFFF 1px;
     background-color: rgb(83, 114, 160);
     border-radius: 20px;
     opacity: 80%;
 }
 
-.currency-content, .text-card{
-    color: #FFFFFF;
-    display: block;
-    flex-direction: column;
-
-}
-.currency-content{
-    line-height: 14px;
-    letter-spacing: 0;
+h1 {
     font-size: 24px;
-    font-style: Yukita Sans;
-    font-weight: 600;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
 
-.currency-content h1{
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.5rem;
+.input-group {
+    margin-bottom: 20px;
 }
 
-.text-card{
-    display: flexbox;
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+    opacity: 0.9;
 }
+
+.input-row, .date-row {
+    background: #e0e4f0; /* Light greyish-blue background */
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    color: #333;
+}
+
+.currency-select {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.currency-select img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.currency-select span {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    width: 100%;
+}
+
+.date-row {
+    justify-content: space-between;
+}
+
+.nav-btn {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #333;
+}
+
+.date-text {
+    font-size: 14px;
+}
+
+.footer-links {
+    margin-top: 30px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
+/* Simple arrow helper */
+.arrow-down::after {
+    content: '▼';
+    font-size: 8px;
+    margin-left: 5px;
+}
+
+/*testing*/
 
 .article1{
     background-color: #FFFFFF;
@@ -339,7 +409,7 @@ span{
     top: 1229px;
     left: 119px;
     height: 414px;
-    width: 1,197px;
+    width: max(1,197px 25%);
     gap: 20px;
     margin: 0px 70px;
     padding-top: 20px;   
@@ -350,8 +420,7 @@ span{
     align-content: center;
     background-color: #FFFFFF;
     top: 1229.38px;
-    height: 413.62px;
-    width: 383;
+    align-items: center;
     left: 526px;
     border-radius: 20px;
     border: 1px;
