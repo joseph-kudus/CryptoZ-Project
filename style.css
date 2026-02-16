@@ -131,8 +131,8 @@ span{
     letter-spacing: 0px;
 }
 .mail-us-l{
+    display: fl;
     background-color: #FFFFFF;
-    color: #FFFFFF;
     padding: 18px 36px;
     gap: 10px;
     border: 1px;
@@ -169,8 +169,19 @@ span{
 
 /*testing*/
 
+.icon-mask{
+    
+    background-image: url('assets/Coin/BitCoin/Cam2.png'); /* */
+    background-repeat: repeat; /* Prevents the image from tiling */
+   position: relative;
+
+}
+.icon-mask::after{
+    position: relative;
+}
+
 .converter-card {
-    width: 350px;
+    
     padding: 20px;
     font-family: Yukita Sans;
     width: 419px;
@@ -183,20 +194,29 @@ span{
     padding: 0.1rem;
     font-family: Yukita Sans;
     color: #FFFFFF 1px;
-    color: #FFFFFF 1px;
     background-color: rgb(83, 114, 160);
     border-radius: 20px;
     opacity: 80%;
 }
 
-h1 {
+.header-text {
+    color: #FFFFFF;
     font-size: 24px;
     font-weight: 400;
     margin-bottom: 30px;
 }
-
+.input-group-box{
+    margin: 10px;
+}
 .input-group {
-    margin-bottom: 20px;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 11.89px;
+    line-height: 140%;
+    letter-spacing: 0px;
+    margin: 10px;
+    gap: 10px;
+    color: #FFFFFF;
 }
 
 label {
@@ -212,7 +232,7 @@ label {
     display: flex;
     align-items: center;
     padding: 10px 15px;
-    color: #333;
+    color: black;
 }
 
 .currency-select {
@@ -235,11 +255,11 @@ label {
     font-size: 14px;
 }
 
-input {
+.doto {
     border: none;
     background: transparent;
     font-size: 16px;
-    color: #333;
+    color: black;
     outline: none;
     width: 100%;
 }
@@ -261,10 +281,15 @@ input {
 }
 
 .footer-links {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: Medium;
     margin-top: 30px;
     font-size: 14px;
+    line-height: 140%;
     letter-spacing: 1px;
     opacity: 0.8;
+    letter-spacing: 0px;
 }
 
 /* Simple arrow helper */
@@ -390,6 +415,47 @@ input {
     font-size: 18px;
     line-height: 145%;
     letter-spacing: 0px;
+
+}
+
+/*benefits section*/
+.benefit{
+    background-color: #a42323;
+    color: #050E2C;
+    width: 1,440px;
+    height: 806px;
+    top: 1277px;
+    
+}
+.benefit-text{
+    font-family: yukita Sans;
+    font-weight: 700;
+    font-size: Bold;
+    font-size: 38px;
+    line-height: 70px;
+    letter-spacing: 0px;
+    width: 488px;
+    height: 180px;
+    padding: 40px;
+    background-color: #2752E7;
+   
+}
+.sync-benefit{
+    width: 269px;
+    height: 30px;
+    color: #050E2C;
+    padding: 40px;
+    letter-spacing: 0px;
+    margin-top: 100px;
+}
+.benefit-box{
+    background-color: #FFFFFF;
+}
+.phonescreen{
+    display: flex;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #FFFFFF;
 
 }
 
