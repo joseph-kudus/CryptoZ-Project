@@ -648,20 +648,20 @@ div.bott{
 }
 
 .st1-trial{
-    color: white;
     background-color: #FFFFFF;
     margin: 40px;
     padding-top: 30px;
-    
 }
 .nd2-trial{
     display: flex;
-    color: white;
     justify-content: center;
     align-items: center;
     padding: 0px 20px;
     gap: 70px;
     flex-direction: row;
+}
+.nd22{
+    
 }
 .nd23-trial{
     display: flex;
@@ -671,4 +671,8 @@ div.bott{
     padding: 0px 20px;
     gap: 70px;
     flex-direction: row;
+}
+
+.myimg{
+    
 }
