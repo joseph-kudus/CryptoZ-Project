@@ -418,46 +418,66 @@ label {
 
 }
 
+
+
 /*benefits section*/
-.benefit{
-    background-color: #a42323;
-    color: #050E2C;
-    width: 1,440px;
-    height: 806px;
-    top: 1277px;
-    
+
+.benefit-heading{
+   padding: 20px;
+    text-align: center;
+
 }
+
+/*sync-benefit*/
+.sync-benefit{
+    
+    width: 269px;
+    height: 30px;
+    color: #050E2C;
+    padding: 20px;
+    letter-spacing: 0px;
+    margin-top: 100px;
+}
+
 .benefit-text{
+    justify-content: end;
     font-family: yukita Sans;
     font-weight: 700;
     font-size: Bold;
     font-size: 38px;
     line-height: 70px;
     letter-spacing: 0px;
-    width: 488px;
-    height: 180px;
+    width: 1,88px;
+    height: 480px;
     padding: 40px;
     background-color: #2752E7;
-   
-}
-.sync-benefit{
-    width: 269px;
-    height: 30px;
-    color: #050E2C;
-    padding: 40px;
-    letter-spacing: 0px;
-    margin-top: 100px;
-}
-.benefit-box{
-    background-color: #FFFFFF;
+    overflow: hidden;
 }
 .phonescreen{
+    width: 775px;
+    height: 806px;
     display: flex;
-    
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: #FFFFFF;
+    float: right;
+    background-color: #E8FAFE;
+    gap: 20px;
+    padding-top: 20px;
+   
+}
+.first-two{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 
 }
+.images-a{
+    justify-content: center;
+    align-items: center;
+margin-top: 40px;
+}
+
+
+
 
 .features-section{
     background-color: #D0DBFF;
@@ -610,4 +630,45 @@ div.bott{
     font-family: Nohomi;
     font-style: semi bold;
     font-size: 31px;
+}
+
+
+
+
+
+/*trial*/
+.main-trial{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1,440px;
+    height: 806px;
+    top: 1277px;
+    background-color: #E8FAFE;
+}
+
+.st1-trial{
+    color: white;
+    background-color: #FFFFFF;
+    margin: 40px;
+    padding-top: 30px;
+    
+}
+.nd2-trial{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 70px;
+    flex-direction: row;
+}
+.nd23-trial{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 70px;
+    flex-direction: row;
 }
