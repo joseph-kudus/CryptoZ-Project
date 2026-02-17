@@ -525,6 +525,7 @@ margin-top: 40px;
 
 }
 .light-y{
+    display: flex;
     background-color: #F395D9;
     width: 687px;
     height: 337px;
@@ -532,10 +533,32 @@ margin-top: 40px;
     border-radius: 20px;
     margin: 20px 10px;
 }
-
-
-
-
+.frame-w{
+    background-color: #F3F3F3;
+    width: 151px;
+    height: 270px;
+    top: 33px;
+    left: 30px;
+    position: relative;
+    border-radius: 14.4px;
+}
+.frame-wr{
+    width: 197px;
+    height: 259.13px;
+    top: 11px;
+    left: 21px;
+    position: relative;
+}
+.frame-wr-text{
+    color: #FFFFFFB2;
+    width: 326px;
+    height: 60px;
+    font-family: inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 145%;
+}
 
 
 /*card container*/
@@ -563,13 +586,15 @@ margin-top: 40px;
     border: 1px;
     flex-wrap: wrap;
     box-shadow: none;
+    justify-content: center;
+    
 }
 
 /*imgs responsiveness*/
 /*Testimonial*/
 
 .Testimonial{
-    background-color: linear-gradient(#FFFFFF #FFFFFF 0% red);
+    background-color: linear-gradient(#FFFFFF,0%,red);
 }
 .CTA{
     background-color: #FFFFFF;
@@ -744,6 +769,8 @@ div.bott{
     height: auto;
     object-fit: cover;
 }
+
+
 
 
 /*Responsive*/
