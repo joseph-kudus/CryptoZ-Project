@@ -8,19 +8,21 @@
 *{
     padding: 0;
     margin: 0;
-    max-width: 100%;
+    
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .header{
+        
         width: 100%;
     }
     
 }
 body{
     max-width: 100%;
-
+    min-height: 100dvh;
     background: #FFFFFF;
     box-sizing: border-box;
+
 }
 
 .header{
@@ -385,6 +387,7 @@ label {
     color: #626262; 
 }
 /*features-section*/
+
 .card-heading{
     height: 120px;
     top: 1013px;
@@ -418,51 +421,22 @@ label {
 
 }
 
-
-
 /*benefits section*/
 
-.benefit-heading{
-   padding: 20px;
-    text-align: center;
 
-}
 
 /*sync-benefit*/
-.sync-benefit{
-    
-    width: 269px;
-    height: 30px;
+.hed-trial{
+    justify-content: center;
+    align-items: center;
+    width: 488px;
+    height: 180px;
     color: #050E2C;
-    padding: 20px;
     letter-spacing: 0px;
-    margin-top: 100px;
+    padding: 30px;
+    padding-bottom: 50px;
 }
 
-.benefit-text{
-    justify-content: end;
-    font-family: yukita Sans;
-    font-weight: 700;
-    font-size: Bold;
-    font-size: 38px;
-    line-height: 70px;
-    letter-spacing: 0px;
-    width: 1,88px;
-    height: 480px;
-    padding: 40px;
-    background-color: #2752E7;
-    overflow: hidden;
-}
-.phonescreen{
-    width: 775px;
-    height: 806px;
-    display: flex;
-    float: right;
-    background-color: #E8FAFE;
-    gap: 20px;
-    padding-top: 20px;
-   
-}
 .first-two{
     display: block;
     justify-content: center;
@@ -483,22 +457,60 @@ margin-top: 40px;
     background-color: #D0DBFF;
     width: 1,440px;
     height: 1,793px;
-    top: 2083px;
     
 }
+
+.lighting-section{
+    display: flex;
+    justify-content: center;
+}
+.light{
+    width: 491px;
+    height: 680px;
+    top: 150px;
+    left: 120px;
+    border-radius: 20px;
+    background-color: #091951;
+    justify-content: space-around;
+    margin: 20px 10px;
+    margin-bottom: 30px;
+}
+
+.light-x{
+    background-color: #F3DE95;
+    color: white;
+    width: 687px;
+    height: 337px;
+    top: 150px;
+    border-radius: 20px;
+    margin: 20px 10px;
+}
+.light-y{
+    background-color: #F395D9;
+    width: 687px;
+    height: 337px;
+    top: 506px;
+    border-radius: 20px;
+    margin: 20px 10px;
+}
+
+
+
+
+
+
 /*card container*/
 .card-box-container{
     background-color: #D0DBFF;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     top: 1229px;
     left: 119px;
     height: 414px;
     width: max(1,197px 25%);
     gap: 20px;
-    margin: 0px 70px;
-    padding-top: 20px;   
+    margin: 50px;
+    padding: 50px;   
 }
 
 .card-container1{
@@ -511,10 +523,10 @@ margin-top: 40px;
     border-radius: 20px;
     border: 1px;
     flex-wrap: wrap;
+    box-shadow: none;
 }
 
 /*imgs responsiveness*/
-
 /*Testimonial*/
 
 .Testimonial{
@@ -648,8 +660,12 @@ div.bott{
 }
 
 .st1-trial{
+    width: 488px;
+    height: 614px;
+    gap: 48px;
     background-color: #FFFFFF;
     margin: 40px;
+    padding: 20px;
     padding-top: 30px;
 }
 .nd2-trial{
@@ -660,8 +676,19 @@ div.bott{
     gap: 70px;
     flex-direction: row;
 }
-.nd22{
-    
+.hed-trial{
+    font-family: Yukita Sans;
+    width: 440px;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    height: 180px;
+    font-weight: 500px;
+    font-size: 30px;
+    font-style: Bold;
+    line-height: 155%;
+    letter-spacing: 0px;
+    color: #050E2C;
 }
 .nd23-trial{
     display: flex;
@@ -673,6 +700,11 @@ div.bott{
     flex-direction: row;
 }
 
-.myimg{
-    
+.myimg1{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
 }
+
+
+/*Responsive*/
