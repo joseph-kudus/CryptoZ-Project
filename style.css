@@ -577,17 +577,17 @@ margin-top: 40px;
     height: 520px;
     width: 1,440px;
 }
-.frame1{
-    justify-content: flex-start;
-    display: flexbox;
+.frame1q{
+    justify-content: center;
+    align-items: center;
     background-color: #2752E7;
-    width: 1,200px;
+    display: block;
+    top: 68px;
+    left: 150px;
+    position: relative;
+    width: 900px;
     height: 328px;
-    top: 96px;
-    left: 120px;
     border-radius: 20px;
-    padding: 40px;
-    text-wrap: red;
 }
 div.frame-text h1{
     color: #FFFFFF;
@@ -621,11 +621,12 @@ div.frame-text h1{
     background-color: #2752E7;
     color: #FFFFFF;
     border-radius: 19.36px;
-    top: 5315px;
+    top: px;
     line-break: 40;
     height: 809.1px;
     width: 1,233px;
     left: 103px;
+    position: absolute;
 }
 
 .footer-container{
@@ -649,40 +650,55 @@ div.frame-text h1{
 
 /*horizontal line*/
 hr{
-    margin: 1.5rem 3%;
+    margin: 1.5rem 3%;  
+}
+.crypto{ 
+    
+    align-items: center;
+    text-align: center;
+    padding: 30px;
     
 }
-div.crypto h1{
-    color: #FFFFFF;
+.cryptoz{
+    width: 213,17px;
+    height: 512,26px;
+    top: 627,15px;
+    left: 50.04px;
+    display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 30px auto;
-    letter-spacing: 0px;
+    gap: 20px;
+    padding: 40px 20px;
+    font-family: Nohemi;
+    font-weight: 600;
+    font-size: 31.82px;
+    font-style: Semi Bold;
     line-height: 130%;
-    font-family: yukita sans;
-    font-weight: 700;
-    font-style: bold;
-    font-size: 23px;
     letter-spacing: 0px;
+    
 }
-div.bott{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    margin: auto;
-    top: 48px;
+.copyright1{
     color: #FFFFFF;
-    width: 33.01px;
-    height: 33px;
-}
-.logo-footer{
-    display: flex;
-    font-family: Nohomi;
-    font-style: semi bold;
-    font-size: 31px;
+    font-family: Yukita Sans;
+    font-weight: 700;
+    font-size: 23.23px;
+    font-style: Bold;
+    line-height: 130%;
+    letter-spacing: 0px;
 }
 
+.copyright{
+    color: rgb(255 255 255 / 0.8);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-style: Regular;
+    font-weight: 400;
+    font-size: 15.49px;
+    letter-spacing: 0px;
+    line-height: 150%;
+}
 
 
 
@@ -747,3 +763,5 @@ div.bott{
 
 
 /*Responsive*/
+
+
