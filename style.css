@@ -308,7 +308,6 @@ label {
     top: 839px;
     height: 438px;
     width: 1,440px;
-    
 }
 .Brand-Company{
     flex-direction: column;
@@ -594,7 +593,25 @@ margin-top: 40px;
 /*Testimonial*/
 
 .Testimonial{
-    background-color: linear-gradient(#FFFFFF,0%,red);
+    background: linear-gradient(#FFFFFF 0%, #FFFFFF 100%);
+    width: 1,440px;
+    height: 874px;
+}
+.Testimonial-heading{
+    color: #050E2C;
+    text-align: center;
+}
+.person-profile{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 400px;
+    height: 280px;
+    gap: 18px;
+}
+.p-card{
+    background-color: red;
+    border-radius: 10px;
 }
 .CTA{
     background-color: #FFFFFF;
