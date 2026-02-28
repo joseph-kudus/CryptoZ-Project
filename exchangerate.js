@@ -162,8 +162,8 @@ let country_list = {
 };
 
 // api key from exhange rate api
-let apiKey = "ebf4f2f58179610cdf576a91";
-let api_key = "55ece8286efe464654b8d1bf";
+ let apiKey = "ebf4f2f58179610cdf576a91";
+//let api_key = "55ece8286efe464654b8d1bf";
 
 const dropList = document.querySelectorAll("form select");
 const fromCurrency = document.querySelector(".from select");
@@ -180,7 +180,7 @@ for (let i = 0; i < dropList.length; i++) {
                 ? currency_code == "USD"
                     ? "selected"
                     : ""
-                : currency_code == "EUR"
+                : currency_code == "UGX"
                 ? "selected"
                 : "";
         let optionTag = `<option value="${currency_code}" ${selected}>${currency_code}</option>`;

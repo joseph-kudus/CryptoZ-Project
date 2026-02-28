@@ -143,7 +143,7 @@ span{
 }
 .mail-us-l{
     display: fl;
-    background-color: #FFFFFF;
+
     padding: 18px 36px;
     gap: 10px;
     border: 1px;
@@ -157,7 +157,7 @@ span{
     gap: 10px;
     border: 1px;
     border-radius: 10px;
-
+    text-decoration: none;
 }
 
 
@@ -181,18 +181,14 @@ span{
 /*testing*/
 
 .icon-mask{
-    
     background-image: url('assets/Coin/BitCoin/Cam2.png'); /* */
     background-repeat: repeat; /* Prevents the image from tiling */
-   position: relative;
-
+    position: relative;
 }
 .icon-mask::after{
     position: relative;
 }
-
-.converter-card {
-    
+.currency-wrapper {
     padding: 20px;
     font-family: Yukita Sans;
     width: 419px;
@@ -205,6 +201,7 @@ span{
     padding: 0.1rem;
     font-family: Yukita Sans;
     color: #FFFFFF 1px;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
     background-color: rgb(83, 114, 160);
     border-radius: 20px;
     opacity: 80%;
@@ -217,9 +214,10 @@ span{
     margin-bottom: 30px;
 }
 .input-group-box{
-    margin: 10px;
+    margin: 20px;
+    padding: 20px;
 }
-.input-group {
+.dropdown-list {
     font-weight: 400;
     font-style: Regular;
     font-size: 11.89px;
@@ -230,14 +228,26 @@ span{
     color: #FFFFFF;
 }
 
-label {
-    display: block;
-    font-size: 14px;
-    margin-bottom: 10px;
-    opacity: 0.9;
-}
 
-.input-row, .date-row {
+/* Select options to select currency from */
+.from{
+    background: #e0e4f0; 
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    color: black;
+}
+/* Select options to select currency to */
+.to{
+    background: #e0e4f0; 
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    color: black;
+}
+ .date-row {
     background: #e0e4f0; /* Light greyish-blue background */
     border-radius: 12px;
     display: flex;
@@ -246,7 +256,7 @@ label {
     color: black;
 }
 
-.currency-select {
+.select-box {
     display: flex;
     align-items: center;
     border-right: 1px solid #ccc;
@@ -254,16 +264,11 @@ label {
     margin-right: 10px;
 }
 
-.currency-select img {
+.select-box img {
     width: 24px;
     height: 24px;
     border-radius: 50%;
     margin-right: 8px;
-}
-
-.currency-select span {
-    font-weight: bold;
-    font-size: 14px;
 }
 
 .doto {
@@ -277,6 +282,27 @@ label {
 
 .date-row {
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 11.89px;
+    line-height: 140%;
+    letter-spacing: 0px;
+    margin: 10px;
+    gap: 10px;
+    color: #FFFFFF;
+}
+.Date{
+    color: #FFFFFF;
+    align-items: center;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 11.89px;
+    line-height: 140%;
+    letter-spacing: 0px;
+    margin: 10px;
+    gap: 10px;
 }
 
 .nav-btn {
@@ -867,12 +893,3 @@ hr{
 
 
 /*Second currency trial api*/
-
-.currency-wrapper{
-    width: 370px;
-    padding: 30px;
-    border-radius: 5px;
-    background-color: #020323;
-    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
-    color: white;
-}

@@ -34,7 +34,7 @@
                     <p>Open a free account in minutes right from your phone and make your money go further</p>
                     <div class="mail-us">
                         <input class="mail-us-l" type="text" placeholder="Email Address....">
-                        <button class="mai">Get started</button>
+                        <button><a href="#Support" class="mai">Get started</a></button>
                     </div>
                 </div>   
 
@@ -86,16 +86,16 @@
 --> 
 
             <!--CURRENCY CONVERTER-->
-        <div class="converter-card">
+        <div class="currency-wrapper">
             <form action="#">
                 <div class="input-group-box">
                     <h1 class="header-text">Currency Converter</h1>
                     <div class="input-group-main">
-                        <div class="input-group">
-                            <label>Amount</label>
-                            <div class="input-row">
-                                <div class="currency-select">
-                                     <img src="https://flagcdn.com/48x36/us.png" alt="flag"><span>USD</span>
+                        <div class="dropdown-list">
+                            <p>Amount</p>
+                            <div class="from">
+                                <div class="select-box">
+                                     <img src="https://flagcdn.com/48x36/us.png" alt="flag">
                                      <select>
                                     <!-- Options to select the currnecy to convert from -->
                                     </select>
@@ -104,11 +104,11 @@
                                 <input type="number" value="0.0088" step="0.0001" class="doto">
                             </div>
                         </div>
-                        <div class="input-group">
-                            <label>Converted to</label>
-                            <div class="input-row">
-                                <div class="currency-select">
-                                    <img src="https://flagcdn.com/48x36/ug.png" alt="flag"><span>Ugx</span>
+                        <div class="dropdown-list">
+                            <p>Converted</p>
+                            <div class="to">
+                                <div class="select-box">
+                                    <img src="https://flagcdn.com/48x36/ug.png" alt="flag">
                                     <select>
                                     <!-- Options to select the currnecy to convert to -->
                                     </select>
@@ -116,8 +116,8 @@
                                 <input type="number" value="0.0088" step="0.0001" class="doto">
                             </div>
                         </div>
-                        <div class="input-group">
-                            <label>Date</label>
+                        <div class="Date">
+                            <p>Date</p>
                             <div class="date-row">
                                 <button class="nav-btn">&lt;</button>
                                 <span class="date-text"><input type="date" name="date" id=""></span>
