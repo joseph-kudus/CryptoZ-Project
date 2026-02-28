@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CryptoZ Project</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=sync_alt" /><link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -35,8 +38,56 @@
                     </div>
                 </div>   
 
+<!--
+                <div class="currency-wrapper">
+                    <header>Currency Converter</header>
+                    <form action="#">
+                        <div class="Amount">
+                            <p>Amount</p>
+                            <input type="text" value="1">
+                        </div>
+                        <div class="dropdown-list">
+                            <div class="from">
+                            <p>From</p>
+                            <div class="select-box">
+                                <img src="https://flagcdn.com/48x36/us.png" alt="flag">
+                                <select>
+                               Select options to select currency from
+                                </select>
+                                <input type="text" value="0.0088" step="0.0001">
+                            </div>
+                            </div>
+                            <div class="icon">
+                                <i class="fas fa-exchange-alt"></i>
+                            </div>
+                        </div>
+                        <div class="dropdown-list">
+                            <p>To</p>
+                            <div class="select-box">
+                                <img src="https://flagcdn.com/48x36/ug.png" alt="flag">
+                                <select>
+                               Select options to select currency from
+                                </select>
+                                <input type="text" value="0.0088" step="0.0001">
+                            </div>
+                        </div>
+                        
+                        <div class="calender">
+                            <p>Date</p>
+                            <input type="datetime-local" name="" id="">
+                        </div>
+                        
+                        <div class="exchange-rate">
+                            <button>Get Exchange Rate</button>
+                        </div>
+
+                    </form>
+                </div>
+--> 
+
             <!--CURRENCY CONVERTER-->
-            <div class="converter-card">
+        <div class="converter-card">
+            <form action="#">
                 <div class="input-group-box">
                     <h1 class="header-text">Currency Converter</h1>
                     <div class="input-group-main">
@@ -44,8 +95,11 @@
                             <label>Amount</label>
                             <div class="input-row">
                                 <div class="currency-select">
-                                    <img src="assets/Frame 8764.png" alt="GBP">
-                                    <span>GBP</span><i class="arrow-down"></i>
+                                     <img src="https://flagcdn.com/48x36/us.png" alt="flag"><span>USD</span>
+                                     <select>
+                                    <!-- Options to select the currnecy to convert from -->
+                                    </select>
+                                    
                                 </div>
                                 <input type="number" value="0.0088" step="0.0001" class="doto">
                             </div>
@@ -54,7 +108,10 @@
                             <label>Converted to</label>
                             <div class="input-row">
                                 <div class="currency-select">
-                                    <img src="assets/Flags.png" alt="AUD"><span>AUD</span><i class="arrow-down"></i>
+                                    <img src="https://flagcdn.com/48x36/ug.png" alt="flag"><span>Ugx</span>
+                                    <select>
+                                    <!-- Options to select the currnecy to convert to -->
+                                    </select>
                                 </div>
                                 <input type="number" value="0.0088" step="0.0001" class="doto">
                             </div>
@@ -68,10 +125,11 @@
                                 <div class="calendar-icon">📅</div>
                             </div>
                         </div>
-                        <div class="footer-links">EUR GBP BTC</div>
+                        <button>EUR GBP BTC</button>
                     </div>
                 </div>
-            </div>
+                </form>
+        </div>
         </div>
     </div>
 
@@ -181,28 +239,35 @@
     </div>
     <div class="card-box-container">
         <div class="card-container1">
-            <img src="assets/Group 5276.png" alt="the imng">
+            <div class="card-container3">
+                <img src="assets/Group 5276.png" alt="the imng">
             <div class="card-description">
                 <h2>Sign Up</h2>
                 <p>Buy Bitcoin or Ethereum, the securely store it
                  in your wallet or send it on easily to friends </p>
             </div>
+            </div>
+            
         </div>
         <div class="card-container1">
+             <div class="card-container3">
             <img src="assets/Frame 220.png" alt="the imng">
             <h2>Fund</h2>
             <div class="card-description">
                 <p>Choose you preferred payment method such as
                  bank transfer or credit card to top up your wallet  </p>
             </div>
+            </div>
         </div>
 
         <div class="card-container1">
+            <div class="card-container3">
             <img src="assets/Frame 221.png" alt="the imng">
             <h2>Buy Crypto</h2>
             <div class="card-description">
                 <p>Sign up for free wallet on web, IOS or Android 
                 and follow our easy process to set up your profile </p>
+            </div>
             </div>
         </div>
     </div>
@@ -244,16 +309,12 @@
 <!--CTA-->
 <div class="CTA">
     <div class="frame1q">
-        <div class="frame-text">
-            <h1>Take your first step into safe, secure crypto investing</h1>
+        <div class="fram">
+         <h1>Take your first step into safe, secure crypto investing</h1>
+         </div>
+        <div class="frame-tex">
+            <button class="btn-cta" id="btn-cta">Get Started</button>
         </div>
-        <button class="btn-cta" id="btn-cta">Get Started</button>
-        <script>
-            document.getElementById('btn-cta').addEventListener('cta', function(){
-                alert('button click');
-            }
-            )
-        </script>
     </div>
 </div>
 
@@ -321,9 +382,10 @@
                 <img src="assets/vuesax/bold/nexo-(nexo).png" alt="" class="im">
                 <p>CryptoZ</p>           
             </div>
-            <p class="copyright">© Design by Amarachi Iwueze. All rights reserved.</p>
+            <p class="copyright">© Design by Joseph Lukudu. All rights reserved.</p>
         </div>
     </div>
 <script src="exchangerate.js"></script>
+<script src="currency.js"></script>
  </body>
 </html>
