@@ -3,10 +3,10 @@
 function theDate(){
     const date=new Date();
     const currentDate=date.getDate();
-    const months = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     const month = months[date.getMonth()];
     const year=date.getFullYear();
-    const todayDays=document.getElementById("date-container").innerHTML= currentDate + "/" + month + "/" + year;
+    const todayDays=document.getElementById("date-container").innerHTML= currentDate + "-" + month + "-" + year;
 }
 theDate();
 
