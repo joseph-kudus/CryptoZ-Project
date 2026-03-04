@@ -26,10 +26,9 @@
 
 body{
     max-width: 100%;
-    min-height: 100dvh;
+    min-height: 100vh;
     background: #FFFFFF;
     box-sizing: border-box;
-
 }
 
 .header{
@@ -190,17 +189,15 @@ span{
     letter-spacing: 0px;
 }
 .mail-us-l{
-    display: fl;
-
     padding: 18px 36px;
     gap: 10px;
     border: 1px;
     border-radius: 10px;
     margin-top: 40px;
 }
-.mai{
-    background-color: #2752E7;
+.mal{
     color: #FFFFFF;
+    background-color: #2752E7;
     padding: 18px 36px;
     gap: 10px;
     border: 1px;
@@ -563,7 +560,8 @@ margin-top: 40px;
     position: relative;
 }
 .create-port{
-    
+    width: 422px;
+    height: 179.46px;
     color: #FFFFFF;
     display: flex;
     flex-grow: 1;
@@ -604,7 +602,8 @@ margin-top: 40px;
     left: 35px;
     position: relative;
     gap: 10px;
-    width: fit-content;
+    width: 326px;
+    height: 158.39px;
     
 
 }
@@ -636,14 +635,18 @@ margin-top: 40px;
 .frame-wr-text{
     color: #FFFFFFB2;
     width: 326px;
-    height: 60px;
-    font-family: inter;
+    height: 158px;
+    top: 33px;
+    left: 103px;
+    gap: 20px;
+    position: relative;
+    font-family: yukita sans;
     font-weight: 400;
-    font-style: Regular;
-    font-size: 14px;
-    line-height: 145%;
+    font-style: Bold;
+    font-size: 25px;
+    line-height: 135%;
+    letter-spacing: 0px;
 }
-
 
 /*card container*/
 .card-box-container{
@@ -699,7 +702,9 @@ margin-top: 40px;
 .Testimonial-img{
     width: 1200px;
     height: 874px;
-    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/Testimonial.png);
 }
 .person-profile{
     display: flex;
@@ -750,7 +755,6 @@ margin-top: 40px;
     letter-spacing: 0px;
     position: relative;
 }
-
 .frame-tex{
     display: flex;
     flex-direction: column;
