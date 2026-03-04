@@ -7,10 +7,9 @@
 }
 *{
     padding: 0;
-    margin: 0;
-    
+    margin: 0;   
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 678px){
     .header{
         display: block;
         width: 100%;
@@ -18,12 +17,11 @@
         background-color: red;
     }
     body{
-    max-width: 100%;
-    min-height: 100dvh;
-    background: #FFFFFF;
-    box-sizing: border-box;
-
-}
+        max-width: 100%;
+        min-height: 100dvh;
+        background: #FFFFFF;
+        box-sizing: border-box;
+    }
 }
 
 body{
@@ -48,7 +46,57 @@ body{
     top: 0; 
     width: 100%;
     z-index: 100; 
+    position: relative;
 }
+
+
+.shadow-md {
+    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px rgba(0, 0, 0, .1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+
+}
+
+
+.font-inter {
+    font-family: Inter, sans-serif;
+}
+.p-3 {
+    padding: .75rem;
+}
+.bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.flex-shrink {
+    flex-shrink: 1;
+}
+.flex-1 {
+    flex: 1 1 0%;
+}
+.w-\[100\%\] {
+    width: 100%;
+}
+.z-50 {
+    z-index: 50;
+}
+.top-0 {
+    top: 0;
+}
+.sticky {
+    position: sticky;
+}
+
+
+header {
+    display: block;
+    unicode-bidi: isolate;
+}
+
 
 .logo{
     font: Nohemi;
@@ -286,12 +334,12 @@ span{
     text-align: center;
     font-weight: 400;
     font-style: Regular;
-    font-size: 11.89px;
+    font-size: 17.89px;
     line-height: 140%;
     letter-spacing: 0px;
     margin: 10px;
     gap: 10px;
-    color: #FFFFFF;
+    color: #000;
 }
 .Date{
     color: #FFFFFF;
@@ -548,14 +596,16 @@ margin-top: 40px;
     border-radius: 14.4px;
 }
 .text-part{
-    
-    color: #050E2C;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
     top: 33px;
     position: relative;
-    left: 50px;
+    left: 35px;
     position: relative;
-    gap: 10.39px;
+    gap: 10px;
     width: fit-content;
+    
 
 }
 .light-y{
@@ -645,14 +695,11 @@ margin-top: 40px;
 /*imgs responsiveness*/
 /*Testimonial*/
 
-.Testimonial{
-    background: linear-gradient(#FFFFFF 0%, #FFFFFF 100%);
-    width: 1,440px;
+
+.Testimonial-img{
+    width: 1200px;
     height: 874px;
-}
-.Testimonial-heading{
-    color: #050E2C;
-    text-align: center;
+    background-color: #000;
 }
 .person-profile{
     display: flex;
