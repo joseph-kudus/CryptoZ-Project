@@ -211,7 +211,7 @@ const getExchangeRate = () => {
         amountVal = 1;
     }
 
-    exchangeRateText.innerText = "Getting exchange rate...";
+    exchangeRateText.innerText = "EUR GBP BTC";
 
     let url = `https://v6.exchangerate-api.com/v6/${api_key}/latest/${fromCurrency.value}`;
     fetch(url)
