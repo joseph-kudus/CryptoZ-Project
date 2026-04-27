@@ -12,6 +12,7 @@
 }
 
 body{
+    width: 100%;
     max-width: 100%;
     min-height: 100vh;
     background: #FFFFFF;
@@ -117,9 +118,10 @@ span{
 .nav{
     width: 100%;
     display: flex;
+    flex-direction: row;
     color: #2C3131;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-left: 40px;
 }
 .nav-bar, .nav-bar li a{
@@ -790,30 +792,36 @@ hr{
 
 @media screen and (max-width: 768px){
     .header{
-        padding: 16px 20px;
+        padding: 1px 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .hamburger{ 
         display: block; 
     }
     .nav{
-        position: absolute;
-        top: 80px;
-        left: 0;
+        color: #000000;
         width: 100%;
-        background: white;
+        
         flex-direction: column;
-        padding: 1rem;
         box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        display: none;
+        display: flex;
+        flex-direction: row;
         margin-left: 0;
+        justify-content: center;
+        align-items: center;
     }
     .nav.active{ 
         display: flex; 
     }
     .nav-bar{
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         width: 100%;
-        gap: 1rem;
+        
     }
     .nav-bar li{
         width: 100%;
